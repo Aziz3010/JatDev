@@ -1,3 +1,8 @@
+import CharlieImage from "../Images/Charlie.jpg";
+import CharmieImage from "../Images/Charmie.jpg";
+import CrisImage from "../Images/Cris.jpg";
+import JasonImage from "../Images/Jason.jpg";
+
 const starIcon = (
   <svg
     width="17"
@@ -365,7 +370,7 @@ export const ChartData = [
         pv: 43,
         amt: 21,
       },
-    ]
+    ],
   },
   {
     Weekly: [
@@ -392,7 +397,7 @@ export const ChartData = [
         uv: 27,
         pv: 39,
         amt: 20,
-      }
+      },
     ],
   },
   {
@@ -488,11 +493,62 @@ export const TasksContent = [
     percentage: 60,
     color: "#5051F9",
   },
+  // {
+  //   clock: "10:00 pm",
+  //   link: "www.google.com",
+  //   comments: 11,
+  //   percentage: 80,
+  //   color: "red",
+  // },
+];
+
+export const Friends = [
   {
-    clock: "10:00 pm",
-    link: "www.google.com",
-    comments: 11,
-    percentage: 80,
-    color: "red",
+    image: CrisImage,
+    name: "Cris Morich",
+    messages: "Hi Angelina! How are You?",
+    bgBorderColor: "#fac248",
   },
-]
+  {
+    image: CharmieImage,
+    name: "Charmie",
+    messages: "Do you need that design?",
+    bgBorderColor: "#eda0a8",
+  },
+  {
+    image: JasonImage,
+    name: "Jason Mandala",
+    messages: "What is the price of hourly...",
+    bgBorderColor: "#89cde2",
+  },
+  {
+    image: CharlieImage,
+    name: "Charlie Chu",
+    messages: "Awsome design!!",
+    bgBorderColor: "#aa98ca",
+  },
+];
+
+export const FriendsOnCall = [
+  {
+    image: CrisImage,
+    name: "Cris Morich",
+  },
+  {
+    image: CharmieImage,
+    name: "Charmie",
+  },
+  {
+    image: JasonImage,
+    name: "Jason Mandala",
+  },
+  {
+    image: null,
+    name: "Charlie Chu",
+  },
+];
+
+
+export const Emojis = [0x1F600, 0x1F604, 0x1F34A, 0x1F344, 0x1F37F, 0x1F363, 0x1F370, 0x1F355,
+  0x1F354, 0x1F35F, 0x1F6C0, 0x1F48E, 0x1F5FA, 0x23F0, 0x1F579, 0x1F4DA,
+  0x1F431, 0x1F42A, 0x1F439, 0x1F424];

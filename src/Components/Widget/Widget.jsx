@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Widget.css";
 import LineChartComponent from '../../Charts/LineChart';
+import HrLine from '../HrLine/HrLine';
 
 const Widget = ({icon, title, number, shadow, color, secondNumber, p1, p2, dataChart}) => {
     return (
@@ -16,7 +17,7 @@ const Widget = ({icon, title, number, shadow, color, secondNumber, p1, p2, dataC
                     <h2>{number}</h2>
                 </div>
             </div>
-            <hr />
+            <HrLine margin="26px 0"/>
             <div className="bottom">
                 <div className="left">
                     <div className="small_chart">

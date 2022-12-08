@@ -4,6 +4,11 @@ import "./Home.css";
 import { Widgets, TasksContent } from "../../Assets/Data/Data";
 import StackedChart from '../../Components/StackedChart/StackedChart';
 import Tasks from '../../Components/Tasks/Tasks';
+import HrLine from '../../Components/HrLine/HrLine';
+import NewTask from '../../Components/NewTask/NewTask';
+import Messages from '../../Components/Messages/Messages';
+import AddCollaborators from '../../Components/AddCollaborators/AddCollaborators';
+import Scheudle from '../../Components/Scheudle/Scheudle';
 
 const Home = () => {
   return (
@@ -28,17 +33,15 @@ const Home = () => {
         </div>
       </div>
       <div className="rightSide">
-        
+        <Scheudle />
+        <HrLine margin="30px 0" />
+        <Messages />
+        <NewTask />
+        <HrLine margin="20px 0" />
+        <AddCollaborators />
       </div>
     </section>
   )
 }
 
 export default Home;
-
-
-/*
-TinyLineChart
-StackedAreaChart || LegendEffectOpacity
-BarChartWithCustomizedEvent
-*/

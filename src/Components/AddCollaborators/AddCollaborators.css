@@ -1,0 +1,63 @@
+.AddCollaborators .title {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: #768396;
+    margin-bottom: 10px;
+}
+
+.collaborators {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.collaborators .person {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 17.5px;
+    padding: 6px;
+}
+
+.collaborators .person img {
+    width: 24px;
+    height: 22px;
+    border-radius: 50%;
+    margin-right: 3px;
+}
+
+.collaborators .person h6 {
+    margin-right: 6px;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.collaborators .person svg {
+    cursor: pointer;
+}
+
+.collaborators .add,
+.collaborators .arrow {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.collaborators .add {
+    background-color: #E8EDF1;
+    margin-right: 19px;
+}
+
+.collaborators .arrow {
+    background-color: #5051F9;
+    cursor: pointer;
+}

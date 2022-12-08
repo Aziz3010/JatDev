@@ -4,12 +4,13 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     font-family: 'DM Sans', sans-serif;
     background-color: #F3F4F8;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
@@ -21,3 +22,13 @@ main {
     margin-left: 93px;
     min-height: calc(100vh - 76px);
 }
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    /* background-color: #fff; */
+}
+/* 
+::-webkit-scrollbar-thumb {
+    background-color: #999;
+} */

@@ -1,0 +1,113 @@
+.Scheudle .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.Scheudle .top .title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #232360;
+    text-transform: capitalize;
+}
+
+.Scheudle .top .grid {
+    background-color: #F4F4F4;
+    border-radius: 14.5px;
+    padding: 7px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+
+.Scheudle .top .grid .icon {
+    cursor: pointer;
+}
+
+.Scheudle .medile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.Scheudle .medile .left :first-child {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #1EA7FF;
+    margin-bottom: 10px;
+}
+
+.Scheudle .medile .left :last-child {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #232360;
+}
+
+.Scheudle .medile .right p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #1EA7FF;
+}
+
+.Scheudle .bottom {
+    background: #5051F9;
+    box-shadow: 0px 8px 20px rgba(80, 81, 249, 0.24);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px;
+}
+
+.Scheudle .bottom .persons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.Scheudle .bottom .persons img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-left: -8px;
+}
+
+.Scheudle .bottom .persons span {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    color: #1EA7FF;
+    border: 3px solid #fff;
+    background-color: #E9F1FC;
+    margin-left: -8px;
+}
+
+.Scheudle .bottom .callDuration h6 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.Scheudle .bottom .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Scheudle .bottom .icons svg {
+    cursor: pointer;
+}
