@@ -2,7 +2,7 @@ import React from 'react';
 import "./Widget.css";
 import LineChartComponent from '../../Charts/LineChart';
 
-const Widget = ({icon, title, number, shadow, color, secondNumber, p1, p2}) => {
+const Widget = ({icon, title, number, shadow, color, secondNumber, p1, p2, dataChart}) => {
     return (
         <div className="widget">
             <div className="top">
@@ -20,7 +20,7 @@ const Widget = ({icon, title, number, shadow, color, secondNumber, p1, p2}) => {
             <div className="bottom">
                 <div className="left">
                     <div className="small_chart">
-                        <LineChartComponent shadow={shadow} color={color} />
+                        <LineChartComponent shadow={shadow} color={color} data={dataChart} />
                     </div>
                 </div>
                 <div className="right">

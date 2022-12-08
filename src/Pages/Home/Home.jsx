@@ -1,34 +1,35 @@
 import React from 'react';
 import Widget from '../../Components/Widget/Widget';
 import "./Home.css";
-import { Icons } from "../../Assets/Data/Data";
+import { Widgets, TasksContent } from "../../Assets/Data/Data";
+import StackedChart from '../../Components/StackedChart/StackedChart';
+import Tasks from '../../Components/Tasks/Tasks';
 
 const Home = () => {
   return (
     <section className='Home'>
-
       <div className="leftSide">
-
+        {/* Widgets */}
         <div className="widgets">
-          <Widget icon={Icons.starIcon} title="task completed" number="08" shadow="rgba(80, 81, 249, .4)" color="#5051F9" secondNumber="10" p1="more" p2="from last week" />
-          <Widget icon={Icons.paperIcon} title="new task" number="10" shadow="rgba(30, 167, 255, 0.4)" color="#1ea7ff" secondNumber="10" p1="more" p2="from last week" />
-          <Widget icon={Icons.noteIcon} title="project done" number="10" shadow="rgba(255, 97, 76, 1)" color="#FF614C" secondNumber="08" p1="more" p2="from last week" />
+          {
+            Widgets.map((widget, index) => (
+              <Widget key={index} icon={widget.icon} title={widget.title} number={widget.number} shadow={widget.shadow} color={widget.color} secondNumber={widget.secondNumber} p1={widget.p1} p2={widget.p2} dataChart={widget.dataChart} />
+            ))
+          }
         </div>
-
-        <div className="chart">
-
+        {/* Chart */}
+        <StackedChart />
+        {/* Tasks */}
+        <div className="tasks">
+          <h3 className='title'>task</h3>
+          {TasksContent.map((TaskContent, index) => (
+            <Tasks key={index} TaskContent={TaskContent} />
+          ))}
         </div>
-
-
-        {/* <div className="task">
-
-        </div> */}
-
-
       </div>
-
-
-      <div className="rightSide"></div>
+      <div className="rightSide">
+        
+      </div>
     </section>
   )
 }

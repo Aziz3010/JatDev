@@ -1,0 +1,160 @@
+.task {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* clock */
+.task .clock {
+    background-color: #FBFAFF;
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.task .clock .icon {
+    background-color: #5051F9;
+    box-shadow: 0px 8px 16px rgba(16, 16, 35, 0.2);
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.task .clock .text_time .text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin-bottom: 11px;
+}
+
+.task .clock .text_time .time {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.task .clock .text_time .time h3 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: #778399;
+}
+
+/* link_comments_box */
+.task .link_comments_box {
+    flex: 2;
+    padding: 20px;
+}
+
+.task .link_comments_box .title {
+    margin: 0 0 11px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #23235F;
+}
+
+.task .link_comments_box .link_comments {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+}
+
+.task .link_comments_box .link_comments .linkk,
+.task .link_comments_box .link_comments .comm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10.13px;
+}
+
+.task .link_comments_box .link_comments .linkk a {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: #5453F6;
+}
+
+.task .link_comments_box .link_comments .comm {
+    padding-left: 12px;
+    border-left: 1px solid #E8EDF3;
+}
+
+.task .link_comments_box .link_comments .comm p {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 17px;
+    color: #778399;
+}
+
+/* percentage */
+.task .percentage {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.task .percentage .percentage_text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #23235F;
+    margin-bottom: 16px;
+}
+
+.task .percentage .percentage_bar {
+    width: 100%;
+    height: 5px;
+    border-radius: 6px;
+    background-color: #E3E8EE;
+}
+
+.task .percentage .percentage_bar .percentage_bar_colored {
+    height: 5px;
+    border-radius: 6px;
+}
+
+/* reminder */
+.task .reminder_btn {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.task .reminder_btn button {
+    background-color: #EDECFE;
+    outline: none;
+    border: none;
+    border-radius: 9px;
+    padding: 11px 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 17px;
+    color: #5051F9;
+}

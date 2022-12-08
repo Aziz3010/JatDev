@@ -146,11 +146,170 @@ const link06 = (
   </svg>
 );
 
-export const Icons = {
-  starIcon,
-  paperIcon,
-  noteIcon,
-};
+export const Widgets = [
+  {
+    icon: starIcon,
+    title: "task completed",
+    number: "08",
+    secondNumber: "10",
+    p1: "more",
+    p2: "from last week",
+    shadow: "rgba(80, 81, 249, .4)",
+    color: "#5051F9",
+    dataChart: [
+      {
+        name: "Page A",
+        uv: 4000,
+        pv: 2400,
+        amt: 2400,
+      },
+      {
+        name: "Page B",
+        uv: 3000,
+        pv: 1398,
+        amt: 2210,
+      },
+      {
+        name: "Page C",
+        uv: 2000,
+        pv: 9800,
+        amt: 2290,
+      },
+      {
+        name: "Page D",
+        uv: 2780,
+        pv: 3908,
+        amt: 2000,
+      },
+      {
+        name: "Page E",
+        uv: 1890,
+        pv: 4800,
+        amt: 2181,
+      },
+      {
+        name: "Page F",
+        uv: 2390,
+        pv: 3800,
+        amt: 2500,
+      },
+      {
+        name: "Page G",
+        uv: 3490,
+        pv: 4300,
+        amt: 2100,
+      },
+    ],
+  },
+  {
+    icon: paperIcon,
+    title: "new task",
+    number: "10",
+    secondNumber: "10",
+    p1: "more",
+    p2: "from last week",
+    shadow: "rgba(30, 167, 255, 0.4)",
+    color: "#1ea7ff",
+    dataChart: [
+      {
+        name: "Page A",
+        uv: 4000,
+        pv: 2400,
+        amt: 2400,
+      },
+      {
+        name: "Page B",
+        uv: 3000,
+        pv: 1398,
+        amt: 2210,
+      },
+      {
+        name: "Page C",
+        uv: 2000,
+        pv: 9800,
+        amt: 2290,
+      },
+      {
+        name: "Page D",
+        uv: 2780,
+        pv: 3908,
+        amt: 2000,
+      },
+      {
+        name: "Page E",
+        uv: 1890,
+        pv: 4800,
+        amt: 2181,
+      },
+      {
+        name: "Page F",
+        uv: 2390,
+        pv: 3800,
+        amt: 2500,
+      },
+      {
+        name: "Page G",
+        uv: 3490,
+        pv: 4300,
+        amt: 2100,
+      },
+    ],
+  },
+  {
+    icon: noteIcon,
+    title: "project done",
+    number: "10",
+    secondNumber: "08",
+    p1: "more",
+    p2: "from last week",
+    shadow: "rgba(255, 97, 76, 1)",
+    color: "#FF614C",
+    dataChart: [
+      {
+        name: "Page A",
+        uv: 4000,
+        pv: 2400,
+        amt: 2400,
+      },
+      {
+        name: "Page B",
+        uv: 3000,
+        pv: 1398,
+        amt: 2210,
+      },
+      {
+        name: "Page C",
+        uv: 2000,
+        pv: 9800,
+        amt: 2290,
+      },
+      {
+        name: "Page D",
+        uv: 2780,
+        pv: 3908,
+        amt: 2000,
+      },
+      {
+        name: "Page E",
+        uv: 1890,
+        pv: 4800,
+        amt: 2181,
+      },
+      {
+        name: "Page F",
+        uv: 2390,
+        pv: 3800,
+        amt: 2500,
+      },
+      {
+        name: "Page G",
+        uv: 3490,
+        pv: 4300,
+        amt: 2100,
+      },
+    ],
+  },
+];
 
 export const Links = [
   { to: "/", icon: link01 },
@@ -160,3 +319,180 @@ export const Links = [
   { to: "/chat", icon: link05 },
   { to: "/files", icon: link06 },
 ];
+
+export const ChartData = [
+  {
+    Daily: [
+      {
+        name: "Mon",
+        uv: 40,
+        pv: 24,
+        amt: 24,
+      },
+      {
+        name: "The",
+        uv: 30,
+        pv: 13,
+        amt: 22,
+      },
+      {
+        name: "Wed",
+        uv: 20,
+        pv: 98,
+        amt: 22,
+      },
+      {
+        name: "Thu",
+        uv: 27,
+        pv: 39,
+        amt: 20,
+      },
+      {
+        name: "Fri",
+        uv: 18,
+        pv: 48,
+        amt: 21,
+      },
+      {
+        name: "Sat",
+        uv: 23,
+        pv: 38,
+        amt: 25,
+      },
+      {
+        name: "Sun",
+        uv: 34,
+        pv: 43,
+        amt: 21,
+      },
+    ]
+  },
+  {
+    Weekly: [
+      {
+        name: "One",
+        uv: 40,
+        pv: 24,
+        amt: 24,
+      },
+      {
+        name: "Two",
+        uv: 30,
+        pv: 13,
+        amt: 22,
+      },
+      {
+        name: "Thee",
+        uv: 20,
+        pv: 98,
+        amt: 22,
+      },
+      {
+        name: "Four",
+        uv: 27,
+        pv: 39,
+        amt: 20,
+      }
+    ],
+  },
+  {
+    Monthly: [
+      {
+        name: "May",
+        uv: 40,
+        pv: 24,
+        amt: 24,
+      },
+      {
+        name: "Jun",
+        uv: 30,
+        pv: 13,
+        amt: 22,
+      },
+      {
+        name: "Jul",
+        uv: 20,
+        pv: 98,
+        amt: 22,
+      },
+      {
+        name: "Aug",
+        uv: 27,
+        pv: 39,
+        amt: 20,
+      },
+      {
+        name: "Sep",
+        uv: 18,
+        pv: 48,
+        amt: 21,
+      },
+      {
+        name: "Oct",
+        uv: 23,
+        pv: 38,
+        amt: 25,
+      },
+      {
+        name: "Nov",
+        uv: 34,
+        pv: 43,
+        amt: 21,
+      },
+      {
+        name: "Dec",
+        uv: 34,
+        pv: 43,
+        amt: 21,
+      },
+      {
+        name: "Jan",
+        uv: 34,
+        pv: 43,
+        amt: 21,
+      },
+      {
+        name: "Feb",
+        uv: 34,
+        pv: 43,
+        amt: 21,
+      },
+      {
+        name: "Mar",
+        uv: 34,
+        pv: 43,
+        amt: 21,
+      },
+      {
+        name: "Apr",
+        uv: 34,
+        pv: 43,
+        amt: 21,
+      },
+    ],
+  },
+];
+
+export const TasksContent = [
+  {
+    clock: "9:00 am",
+    link: "www.uistore.com",
+    comments: 8,
+    percentage: 24,
+    color: "#23B2FF",
+  },
+  {
+    clock: "3:00 am",
+    link: "www.google.com",
+    comments: 5,
+    percentage: 60,
+    color: "#5051F9",
+  },
+  {
+    clock: "10:00 pm",
+    link: "www.google.com",
+    comments: 11,
+    percentage: 80,
+    color: "red",
+  },
+]

@@ -1,0 +1,49 @@
+.chart {
+    height: 370px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 16px;
+    margin: 30px 0;
+    padding: 24px;
+}
+
+.chart .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.chart .heading h2,
+.chart .heading .tabs h3 {
+    text-transform: capitalize;
+}
+
+.chart .heading h2 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #232360;
+}
+
+.chart .heading .tabs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.chart .heading .tabs h3 {
+    padding-bottom: 9px;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    color: #232360;
+    cursor: pointer;
+}
+
+.chart .heading .tabs h3.active {
+    border-bottom: 2px solid #1EA7FF;
+    color: #1EA7FF;
+}

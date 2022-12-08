@@ -1,6 +1,6 @@
 .widget {
     padding: 25px 20px;
-    width: 100%;
+    flex: 1;
     border-radius: 16px;
     background-color: #fff;
 }
