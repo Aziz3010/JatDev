@@ -14,7 +14,6 @@ const Home = () => {
   return (
     <section className='Home'>
       <div className="leftSide">
-        {/* Widgets */}
         <div className="widgets">
           {
             Widgets.map((widget, index) => (
@@ -22,9 +21,7 @@ const Home = () => {
             ))
           }
         </div>
-        {/* Chart */}
         <StackedChart />
-        {/* Tasks */}
         <div className="tasks">
           <h3 className='title'>task</h3>
           {TasksContent.map((TaskContent, index) => (

@@ -39,7 +39,7 @@ const Scheudle = () => {
                             FriendOnCall.image !== null ?
                                 <img key={index} src={FriendOnCall.image} alt={FriendOnCall.name} />
                                 :
-                                <span>{FriendOnCall.name.slice(0, 1)}</span>
+                                <span key={index}>{FriendOnCall.name.slice(0, 1)}</span>
                         ))
                     }
                 </div>
