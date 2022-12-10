@@ -1,0 +1,12 @@
+.activeChart h4 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 31px;
+    color: #232360;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.activeChart .tinyChart {
+    height: 170px;
+}

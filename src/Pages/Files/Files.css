@@ -1,3 +1,122 @@
 .Files {
     padding: 30px 40px;
 }
+
+.Files .row {
+    width: 100%;
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+.Files .row:first-child {
+    margin-bottom: 30px;
+}
+
+.Files .row .left {
+    flex: 2;
+}
+
+.Files .row .right {
+    flex: 1;
+}
+
+.Files .row .folders,
+.Files .row .storage,
+.Files .row .recentFiles,
+.Files .row .activeChart {
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 30px;
+}
+
+/* /////////////// first row /////////////// */
+
+.heading .left h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #000000;
+    text-transform: capitalize;
+}
+
+.heading .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+}
+
+.heading .right button {
+    padding: 14px 28px;
+    border-radius: 23px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 11px;
+    cursor: pointer;
+}
+
+.heading .right button:first-child {
+    background-color: #5051F9;
+}
+
+.heading .right button:first-child span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.heading .right button:last-child {
+    border: 1px solid #D7D7D7;
+}
+
+.heading .right button:last-child span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #505050;
+    text-transform: capitalize;
+}
+
+/* ///////////// second row ///////////////// */
+.Files .row .folders .filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.Files .row .folders .filter .leftFilter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15.88px;
+}
+
+.Files .row .folders .filter .leftFilter span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #232360;
+    text-transform: capitalize;
+}
+
+
+.Files .row .folders .foldersContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+}
+
+/* ///////////// third row ///////////////// */

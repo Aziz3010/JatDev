@@ -1,0 +1,46 @@
+.storage .top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    background-color: #F6F6F8;
+    padding: 17px 24px;
+    border-radius: 11px;
+    margin-bottom: 20px;
+}
+
+.storage .top .pie_chart {
+    flex: 1;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 12px solid #fff;
+}
+
+.storage .top .pie_chart span {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #232360;
+}
+
+.storage .top .chart_text {
+    flex: 2;
+}
+
+.storage .top .chart_text h3 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #232360;
+    margin-bottom: 8px;
+}
+
+.storage .top .chart_text p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    color: #768396;
+}

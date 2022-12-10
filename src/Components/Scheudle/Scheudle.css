@@ -66,34 +66,6 @@
     padding: 22px;
 }
 
-.Scheudle .bottom .persons {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-.Scheudle .bottom .persons img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    border: 3px solid #fff;
-    margin-left: -8px;
-}
-
-.Scheudle .bottom .persons span {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: 700;
-    color: #1EA7FF;
-    border: 3px solid #fff;
-    background-color: #E9F1FC;
-    margin-left: -8px;
-}
-
 .Scheudle .bottom .callDuration h6 {
     font-weight: 500;
     font-size: 16px;

@@ -1,6 +1,7 @@
 import React from 'react';
 import "./Scheudle.css";
 import { FriendsOnCall } from "../../Assets/Data/Data";
+import FriendsImages from '../FriendsImages/FriendsImages';
 
 const Scheudle = () => {
     return (
@@ -33,16 +34,7 @@ const Scheudle = () => {
                 </div>
             </div>
             <div className="bottom">
-                <div className="persons">
-                    {
-                        FriendsOnCall.map((FriendOnCall, index) => (
-                            FriendOnCall.image !== null ?
-                                <img key={index} src={FriendOnCall.image} alt={FriendOnCall.name} />
-                                :
-                                <span key={index}>{FriendOnCall.name.slice(0, 1)}</span>
-                        ))
-                    }
-                </div>
+                <FriendsImages FriendsOnCall={FriendsOnCall}/>
                 <div className="callDuration">
                     <h6>28:35</h6>
                 </div>

@@ -1,0 +1,58 @@
+.folderBox {
+    width: calc(100% / 3 - 20px);
+    border-radius: 10px;
+    border: 1px solid #E3EBEE;
+    background-color: transparent;
+    padding: 24px 26px;
+}
+
+.folderBox .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.folderBox .top .subFolders {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.folderBox .top .subFolders .sf {
+    border-radius: 8px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    position: relative;
+    left: 4px;
+    z-index: 1;
+}
+
+.folderBox .top .subFolders .sf:last-child {
+    left: 0px;
+    z-index: 0;
+}
+
+.folderBox h3 {
+    margin-bottom: 7px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #232360;
+}
+
+.folderBox p {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    color: #768396;
+}

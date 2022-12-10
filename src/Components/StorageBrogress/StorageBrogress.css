@@ -1,0 +1,55 @@
+.detail {
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.detail:last-child {
+    margin-bottom: 0px;
+}
+
+.detail .icon {
+    background-color: #F7F7F9;
+    padding: 11px;
+    border-radius: 9px;
+}
+
+.detail .info {
+    flex: 1;
+}
+
+.detail .info .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.detail .info .text h4 {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #232360;
+    text-transform: capitalize;
+}
+
+.detail .info .text span {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #768396;
+}
+
+.detail .info .progrss_bar {
+    width: 100%;
+    background-color: #E6E9ED;
+    height: 5px;
+    border-radius: 4px;
+}
+
+.detail .info .progrss_bar .progrss_bar_colored {
+    height: 5px;
+    border-radius: 4px;
+}
