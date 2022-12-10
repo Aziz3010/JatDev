@@ -7,7 +7,7 @@ const FriendsImages = ({ FriendsOnCall }) => {
             {
                 FriendsOnCall.map((FriendOnCall, index) => (
                     FriendOnCall.image !== null ?
-                        <img key={index} src={FriendOnCall.image} alt={FriendOnCall.name} />
+                        <img key={index} src={FriendOnCall?.image} alt={FriendOnCall?.name} />
                         :
                         <span key={index}>{FriendOnCall.name.slice(0, 1)}</span>
                 ))

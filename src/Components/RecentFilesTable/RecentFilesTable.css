@@ -1,3 +1,70 @@
-.recentFiles {
-    background-color: red !important;
+.recentFiles .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.recentFiles .top h3 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 39px;
+    color: #232360;
+}
+
+.recentFiles .top h4 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #1EA7FF;
+}
+
+.recentFiles table {
+    width: 100%;
+    text-align: left;
+}
+
+.recentFiles table thead tr th {
+    padding-bottom: 26px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #768396;
+}
+
+.recentFiles table thead tr th img {
+    margin-left: 6px;
+}
+
+
+.recentFiles table tbody tr td {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #768396;
+    margin-bottom: 19px;
+}
+
+.recentFiles table tbody tr td:first-child {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 11px;
+}
+
+.recentFiles table tbody tr td .img {
+    width: 36px;
+    height: 36px;
+    border-radius: 9px;
+    background-color: #F7F7F9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recentFiles table tbody tr td h4 {
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 22px;
+    color: #232360;
 }
