@@ -1,11 +1,11 @@
 import React from 'react';
 import FilterSelectBox from '../../Components/FilterSelectBox/FilterSelectBox';
-import "./Files.css";
 import { SelectOption, FoldersDetails } from "../../Assets/Data/Data";
 import Folders from '../../Components/Folders/Folders';
 import ActiveChart from '../../Components/ActiveChart/ActiveChart';
 import Storage from '../../Components/Storage/Storage';
 import RecentFilesTable from '../../Components/RecentFilesTable/RecentFilesTable';
+import "./Files.css";
 
 
 const Files = () => {
@@ -30,7 +30,6 @@ const Files = () => {
           </button>
         </div>
       </div>
-
       <div className="row">
         <div className="left folders">
           <div className="filter">
@@ -50,12 +49,10 @@ const Files = () => {
         </div>
         <Storage />
       </div>
-
       <div className="row">
         <RecentFilesTable />
         <ActiveChart />
       </div>
-
     </section>
   )
 }

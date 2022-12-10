@@ -15,13 +15,12 @@ const RecentFilesTable = () => {
                 <h3>Recent FIle</h3>
                 <Link to={"/viewall"}>View All</Link>
             </div>
-
             <table>
                 <thead>
                     <tr>
                         <th>name <img src={Arrow} alt="Arrow" /></th>
                         <th>size <img src={Arrow} alt="Arrow" /></th>
-                        <th>lastmodified <img src={Arrow} alt="Arrow" /></th>
+                        <th>last modified <img src={Arrow} alt="Arrow" /></th>
                         <th>members <img src={Arrow} alt="Arrow" /></th>
                         <th></th>
                     </tr>
@@ -39,9 +38,9 @@ const RecentFilesTable = () => {
                                                 file.icon
                                         }
                                     </div>
-                                    <h4>{file.name}</h4>
+                                    <h4><Link to="/">{file.name}</Link></h4>
                                 </td>
-                                <td>{file.size}</td>
+                                <td>{file.size} MB</td>
                                 <td>{file.lastModified}</td>
                                 <td>
                                     <FriendsImages key={index} FriendsOnCall={file.members} />

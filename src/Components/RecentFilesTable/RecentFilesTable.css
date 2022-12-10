@@ -30,10 +30,12 @@
     font-size: 16px;
     line-height: 21px;
     color: #768396;
+    text-transform: capitalize;
 }
 
 .recentFiles table thead tr th img {
     margin-left: 6px;
+    cursor: pointer;
 }
 
 
@@ -62,9 +64,13 @@
     align-items: center;
 }
 
-.recentFiles table tbody tr td h4 {
+.recentFiles table tbody tr td h4 a {
     font-weight: 500;
     font-size: 17px;
     line-height: 22px;
     color: #232360;
+}
+
+.recentFiles table tbody tr td svg {
+    cursor: pointer;
 }
